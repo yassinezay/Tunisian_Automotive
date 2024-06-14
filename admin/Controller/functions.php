@@ -132,9 +132,9 @@ class admincrudpanel{
             $email->setSubject("Thank you For your comment 🚀🤙🏼");
             $email->addTo($emailz,"Joseph");
             $email->addContent("text/html", "Ti reclami wlle yedek hhhhhh");
-            $sendgrid = new SendGrid('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');
+            #$sendgrid = new SendGrid('');
             try {
-                $response = $sendgrid->send($email);
+                #$response = $sendgrid->send($email);
                 //print $response->statusCode() . " ";
                 //print_r($response->headers());
                 //print $response->body() . " ";
