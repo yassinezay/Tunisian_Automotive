@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+
+    <title>Projet Web</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ZymqmNpwATc3LHPtCVwroskJ5n8wcWUTjrpehOn4vfYLxYsTEF-bYSz3eWsyX6CiPFyNC1o1uS51d6uGwXRFAbbEJEoyoSe39LpQ7XuO40t8a-mEofHCcDqqEnzJbFZIcbhaUCd74S8kqNx-ip-9W-IJwRhHhCaoGrz9z-ybNHPIdMflriogPfwkw5ybKlzMtfysxxhSKDtchYimbe1WH3ynGAgZoY2OTaQF_FkOyvCfgcRyNHoaiLItKbuXTNz7wxhGmR1QomIR1yhG0k_b4l1pMMSB6iIAhl5I3NkuzbPrdMXw9jIS3PDb68DEtXWfeR_zGBaTKclixjEbkJK7mRIyLi4Lik2PbUThjTNnVfyvlTQ-XMEUdlleGDQc7hFguReA52IT3SumpZpgpKn8Q_-hwlu_5qrgmGD5KSNgIi0WxATCwTgixPbazFJzPHNuBHWZeVD9jtvXMPrNxR3rTpwrvYOLZLwtqdzRnC-aNe8LMzyinOQ9EEMLHHko6P75WywoEL5ExbbeQxKuqgk6MrwhTwpNTQm9oi_7OxAKrZ2z06Z2LX5CT5ty9AbMevIzYAIOUzKpeRI4WyB5w6iNXdVIed-0HjH11dutAXtjj95N4Cx1mW4s-h8W11VvhBVtNqqz5vwo8Sm3Pb_g4b0neUXCE_njIvgB_rJD-ML1fhag0SrQHUr9ZqL1CkUEWE6NpZX6Td-obWIXi51mzNWYpi1kG_U4fEedCGbsdyTmZAphqJyRSQH8OeBQtkq-xZjEUtpSZ3JynKz-yDLC9ngK3WpGr9JoqJmNJPG-MZtuGlD7zH82VuW2v5bITXU36yzGex_-V61FcpChPWnkXrftRI3ChB-Ddju3iNj2okaVYrZ4KOcMogGbcXtjWd8aUXPE0diuBooz43DDamnAF89eFDyGtkF7ZuMVKiOdnR-2gz7QJyR4lVm47XQJWxrWkjrztW4wH-GCByIrX7haW6Afl-0Rmq5oycJ1-dIZunSGsvzhRF01IvaE4to2Rog5mt6-OwO18TMi0kAYZNrxfh5vnvGEnZNVRXdDBqt8PIkugnPVcI8qxbUI8A5ncSIHKL879LpG2GpvFmg0SA_fCJ-WTXoPBT1Y6xeuc2MVmu7ks0y9jyaQuDMInmilBd-5LR9z9f8yJ9niywiXbTLbbOEo1AXXI9L0gSGk7Zt1okZDKIc_TXY5OoLe7R6kwz72LfUX6iCDvGq0abA40wOV-lLgjfJ2-wRXO6tr7WF8lJ5U1WJnmGu1AYAsYfPcJrX82bKMF8bx8TID8jzzdukeuJTrSbDI2FtLyEba17VNEMrrVc_TOF-_9H-HFPTQJZ2loHIXWukPEo7ebY9LG3z1tUKj1FuDSoiOdg7UXTfN-wB1KQNJmZMaR_wrlWwu9sh_ewtIJ76pQfvT0r0N5T3JC_aI7s6XlIbAbRuriD-T_ia8sePSC80os4GeSLzXSfevLzYhaTXB4D8pP4RAp2XauS-f00RU-Osdph3hGTL5rL1a5IW4Uog8j1k_rP-vqhVy084YiNCKHLVc4G7_63xjwPxBSjmbVnAKBNtGaH7xngy7WJY" nonce="aa7af3b49b22b2b63f09fee827c93c26" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPTBjZWFjZmNhNjImYXR0aWQ9MC4yJnBlcm1tc2dpZD1tc2ctZjoxNzQ5MzIxMzg3MzQxMjE5ODc2JnRoPTE4NDZkNjg4OTI3Nzg4MjQmdmlldz1hdHQmZGlzcD1zYWZlJnJlYWxhdHRpZD1mX2xhZWNqOW1rMSZzYWRkYmF0PUFOR2pkSjhhUjZ4NFp3TGhnT1pkM1ZuWEZTSHVCZHQydmtyNUZEeTVfYWJBd1dIdldLTW5rOWVwbFVGQzJYeDc1aUx0S21UTWQxWE1NN19fcHlxNE1JVFB0Z2M2V1dYaExFQ1RFZDhkaFJldWVfenpmajZSbXc5Vk1SdWtxaFFNTGt3eVhud01VaWlaR0twTDJaZ09KRXF4M0piX3d0YXNTMlV3VHVkR2pyZ0FOclJSTy1hR19rd0pxRzVFeUE5OTNhcWFDZTBoaEZfX1JZeVY4Ry10QkF6NnR1OC1CN1JTRVJ5RmhjZUpuZXktWkFkOEZYN08xS2FRdW51OTgtSVN4SFdBWGJfMFVCU1k5QjNIMmZaNVJ3c3dLeFFPY0d1NXhwWGExa19qWmZXTTFiQXEtd3N3azhjT0JVYW9aUElkaGJ5bklGSlBBbHBkaVEtSldNMXJwSmZSNkJNb2NBU1JzRmprVjJES1ZvNzNoTzBiSEZHQXE0Z19adTM0SEg2MUhNZXRBekRyT1dFZFVHa0J5dHpNeVFKbElzOXNENklod1cxM215YVh5NGhMcjlwdW1UVTBBNXpBMXQ2Q0tNaFl4T2oyQms4QTNqaXNoTW9FUnAyemhzcHVMNkYxaGozSXdpanh2Y3NSU1pwa3hMekZqaGVmV21VcFpkVjhzekVjTDJ3ZTVMdjFmNks2MTNxN0szQXJOVklyYU1WdDFFSVZYeXdZamIwbXFjN1JJekZNeF9RZXJmaXBVVEU1djQtcnJGS2xFeDZKX2V1ZmJ1UUl6RWVsbW04RTFyeVhSeTZYY0ZPRlZZOFRRQXZtWkFFV3BUcF9mREdDdUZvaUZDY2MtR1d5bjZMQ0o0RW5Na21SOTFha2R3U09PRmhjYWVOY054VEJUckRlUWsteHd4STBXX0VZMi1lTTNCaDgtbGNSVERkUEROUFlYNzlLWjRhajNQS0JKcm9RMVB6a1V1SHBPdWVfOU1aY1I5bS1JT250bkFvTi1mZ0wwNmQtWURYdVJsbVdwTjNqQmlQVWxkWVpNX3U5VFFiSGxpUVBXSHhZMktCTlFCMllCTDRUTzEzYW9zT3ZGZUhJSENqOWRYTE1JVURBSnJZQUFHSFByQUFiZGhNbXF2U3RLX29FWDZYUU9fbUc2dVF6ZWpKSFQ2eENZNWk4WW5zR0FLcmpCemZ2QVo0c0EwQ0xLRUNyZ21TR3hIdUliTlZxX1JjaUFMT0hnYzlQZE8zXzJlNTQ3NWFFeDNmNzRyZXZqOFlvWDRz"/></head>
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <img src="assets/images/logo4.png">
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="index.php" class="active">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Our Services</a>
+                              
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="cars.html">Cars For sale</a>
+                                    <a class="dropdown-item" href="faq.html">Rent A Car</a>
+                                    <a class="dropdown-item" href="Repair.html">Repair Service</a>
+                                </div>
+                            </li>
+                            <li><a href="contact.html">Forum</a></li>
+                            <li><a href="contact.html">Contact Us</a></li> 
+                            <li class="nav-item">
+                                <a href="cart.php" ><i class="fa fa-shopping-cart"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="account.php" ><i class="fa fa-user"></i></a>           
+                            </li>
+                            
+                        </ul>        
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Call to Action Start ***** -->
+    <section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/banner-image-1-1920x500.jpg)">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="cta-content">
+                        <br>
+                        <br>
+                        <h2>Service de <em>Reparation</em></h2>
+                        <p>Ici, vous pouvez trouver les pièces et les accessoires que vous avez besoin</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Call to Action End ***** -->
+
+    <!-- ***** Fleet Starts ***** -->
+    <section class="section" id="trainers">
+        <div class="container">
+            <br>
+            <br>
+            <div class="contact-form">
+                <form action="#" id="contact">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Type de pièce:</label>
+                     
+                                 <select>
+                                      <option value="">--All--</option>
+                                      <option value="acc">Accessoires</option>
+                                      <option value="pr">pièces d'echanges</option>
+                                 </select>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Models:</label>
+                     
+                                 <select>
+                                      <option value="">--All --</option>
+                                      <option value="">Selon choix</option>
+                                      <option value="">Standard</option>
+                                 </select>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Prix:</label>
+                     
+                                 <select>
+                                      <option value="">-- All --</option>
+                                      <option value="">-100</option>
+                                      <option value="">+200</option>
+                                      <option value="">+300</option>
+                                      <option value="">+400</option>
+                                 </select>
+                            </div>
+                        </div>
+                
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <div class="form-group">
+                                <label>Model:</label>
+                     
+                                 <select>
+                                      <option value="">-- All --</option>
+                                      <option value="">-- All --</option>
+                                      <option value="">-- All --</option>
+                                      <option value="">-- All --</option>
+                                 </select>
+                            </div>
+                        </div>
+                    
+                    <div class="col-sm-4 offset-sm-4">
+                      <div class="main-button text-center">
+                          <a href="#">Search</a>
+                      </div>
+                    </div>
+                    <br>
+                    <br>
+                </form>
+            </div>
+<br>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product/lame.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>TND</sup>400.00 </del> &nbsp; <sup>TND</sup>350.00
+                            </span>
+
+                            <h4>Lame Pare Chocs Avant</h4>
+
+                            <p>
+                                <i class="fa fa-cog"></i> Selon Choix &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="single-prod.php">+ Voir le produit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img  src="assets/images/product/amort.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>TND</sup>880.00 </del> &nbsp; <sup>TND</sup>800.00
+                            </span>
+
+                            <h4>Amortisseurs courts</h4>
+
+                            <p>
+                                
+                                <i class="fa fa-cog"></i> Standard &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="single-prod.html">+ Voir le produit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product/spoil.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>TND</sup>399.00 </del> &nbsp; <sup>TND</sup>350.00
+                            </span>
+
+                            <h4>Spoilers</h4>
+
+                            <p>
+                                
+                                <i class="fa fa-cog"></i> Selon choix &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="single-prod.html">+ Voir le produit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product/phares.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>TND</sup>599.00 </del> &nbsp; <sup>TND</sup>560.00
+                            </span>
+
+                            <h4>2 Phares avants</h4>
+
+                            <p>
+                                
+                                <i class="fa fa-cog"></i> Selon choix &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="single-prod.html">+ Voir le produit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product/2.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>TND</sup>1999.00 </del> &nbsp; <sup>TND</sup>1900.00
+                            </span>
+
+                            <h4>Jantes ALU</h4>
+
+                            <p>
+                                
+                                <i class="fa fa-cube"></i> ALU &nbsp;&nbsp;&nbsp;
+                                <i class="fa fa-cog"></i> Selon choix &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="single-prod.php">+ Voir le produit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="trainer-item">
+                        <div class="image-thumb">
+                            <img src="assets/images/product/phares2.jpg" alt="">
+                        </div>
+                        <div class="down-content">
+                            <span>
+                                <del><sup>TND</sup>699.00 </del> &nbsp; <sup>TND</sup>640.00
+                            </span>
+
+                            <h4>2 Phares arrières</h4>
+
+                            <p>
+                                
+                                <i class="fa fa-cog"></i> Selon choix &nbsp;&nbsp;&nbsp;
+                            </p>
+
+                            <ul class="social-icons">
+                                <li><a href="single-prod.html">+ Voir le produit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+                
+            <nav>
+              <ul class="pagination pagination-lg justify-content-center">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+        </div>
+    </section>
+    <!-- ***** Fleet Ends ***** -->
+
+    
+    <!-- ***** Footer Start ***** -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>
+                        Copyright © 2020 Company Name
+                        - Template by: <a href="https://www.phpjabbers.com/">PHPJabbers.com</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/imgfix.min.js"></script> 
+    <script src="assets/js/mixitup.js"></script> 
+    <script src="assets/js/accordions.js"></script>
+    
+    <!-- Global Init -->
+    <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
