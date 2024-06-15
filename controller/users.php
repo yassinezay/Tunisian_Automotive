@@ -40,8 +40,8 @@ die('Error :'. $e->getMessage());
 
             $linkrezz=$lien_Arij."/change.php?email=".$emaxil."&token=".$hash;
             $email->addContent("text/html", "Dear ".$emaxil." Please <a href='".$linkrezz."'>click here</a>");
-            $sendgrid = new \SendGrid('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');
-            $response = $sendgrid->send($email);
+            /* $sendgrid = new \SendGrid('');
+            $response = $sendgrid->send($email); */
             return "<font style='color:green'>Done .Please check your email</font>";
         }
     } 
